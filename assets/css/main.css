@@ -77,8 +77,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-color: #051e3e;
+		background-image: url("images/overlay.png");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -116,7 +116,7 @@ input, select, textarea {
 		font-weight: 300;
 		letter-spacing: 1px;
 		color: #3a3939;
-		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+		text-shadow: 0 0 0.5px #251e3e;
 		-webkit-text-stroke: 0.25px;
 	}
 
@@ -154,14 +154,14 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		color: #251e3e;
+		text-shadow: 0 0 0.5px #451e3e;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		border-bottom: dotted 1px #251e3e;
 	}
 
 		a:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
+			border-bottom-color: #251e3e;
 		}
 
 	sub {
@@ -178,12 +178,12 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #dad9d9;
+		border-top: solid 1px #651e3e;
 		margin: 2em 0 2em 0;
 	}
 
 	blockquote {
-		border-left: solid 0.5em #eae9e9;
+		border-left: solid 0.5em #451e3e;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -1572,7 +1572,7 @@ input, select, textarea {
 		ul.menu li {
 			display: inline-block;
 			line-height: 1em;
-			border-left: solid 1px #dad9d9;
+			border-left: solid 1px #251e3e;
 			padding: 0 0 0 0.5em;
 			margin: 0 0 0 0.5em;
 		}
@@ -1631,7 +1631,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background-color: #f8f8f8;
+			background-color: #b3cde0;
 		}
 
 	form input[type="text"],
@@ -1651,8 +1651,8 @@ input, select, textarea {
 	}
 
 		form select option {
-			color: #3a3939;
-			background: #ffffff;
+			color: #f1f1f1;
+			background: #251e3e;
 		}
 
 		form select:focus::-ms-value {
@@ -1741,7 +1741,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #451e3e;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1758,7 +1758,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background:  #851e3e;
 		}
 
 		input[type="button"].style2,
@@ -2069,14 +2069,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #451e3e url("https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-so-many-lost-songs.png") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
+		background-size: 100% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #451e3e;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2134,7 +2134,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #851e3e;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2331,8 +2331,8 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-color: #051e3e;
+				background-image: url("images/overlay.png");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;

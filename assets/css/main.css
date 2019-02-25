@@ -78,7 +78,7 @@ input, select, textarea {
 
 	body {
 		background-color: #051e3e;
-		background-image: url("images/overlay.png");
+		background-image: url("images/overlay.png"), url('images/banner.svg');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -2067,9 +2067,9 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		color: #fff;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-shadow: 0 0 1.5px #451e3e;
 		text-align: center;
-		background: #451e3e url("https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-so-many-lost-songs.png") bottom center no-repeat;
+		background: #451e3e url("images/contact-header.jpg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 100% auto;
@@ -2332,7 +2332,7 @@ input, select, textarea {
 
 			body {
 				background-color: #051e3e;
-				background-image: url("images/pewdie.jpeg");
+				background-image: url("images/banner.svg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;

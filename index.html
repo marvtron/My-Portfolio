@@ -121,7 +121,7 @@
                         <h2>I would love to hear from you!</h2>
                         <p>Please leave me your contact information and a brief message, I look forward to working with you!</p> 
                     </header>
-                    <form method="post" action="#">
+                    <form method="post" action="POST" data-netlify="true">
                         <div class="row gtr-50">
                             <div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
                             <div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
@@ -132,6 +132,10 @@
                                 <ul class="actions">
                                     <li><input type="submit" value="Send Message" /></li>
                                 </ul>
+                            </div>
+                            <div class="field">
+                                <div data-netlify-recaptcha="true">
+                                </div>
                             </div>
                         </div> <br>
                         <h6 style="text-align:center;">(BONUS! Sign up here to be notified when I publish a blog post!)</h6>
